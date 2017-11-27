@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="skripsi.kohonen.signaturerecognition.Tab3Fragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/border"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <skripsi.kohonen.signaturerecognition.FiturDrawing
+            android:id="@+id/drawing_uji"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="#FFFFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:background="@android:color/white">
+
+        <Button
+            android:id="@+id/bt_uji"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="UJI"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/TVhasil"
+            android:layout_width="274dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:textSize="7pt"
+            android:hint="Informasi Hasil Pengujian"
+            android:fontFamily="sans-serif"
+            android:background="@drawable/border"
+            android:layout_weight="1" />
+       <!-- <Button
+        android:layout_width="55dp"
+        android:layout_height="match_parent"
+        android:text="liat"
+        android:id="@+id/btnliat"/>-->
+        <ImageButton
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/bt_new"
+            android:background="@android:color/white"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+
+            android:id="@+id/btnclear2" />
+    </LinearLayout>
+</LinearLayout>

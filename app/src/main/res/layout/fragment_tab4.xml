@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="skripsi.kohonen.signaturerecognition.Tab4Fragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="horizontal"
+        android:weightSum="1">
+    <GridView
+        android:id="@+id/grview_data"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:columnWidth="90dp"
+        android:layout_weight="7"
+        android:numColumns="5"
+        android:verticalSpacing="5dp"
+        android:horizontalSpacing="5dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:background="@android:color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@android:color/white"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center"
+            android:text="Hapus semua data"
+            android:id="@+id/bt_hapus_semua"
+            android:textAlignment="center"
+            android:layout_weight="0.03" />
+    </LinearLayout>
+
+</LinearLayout>

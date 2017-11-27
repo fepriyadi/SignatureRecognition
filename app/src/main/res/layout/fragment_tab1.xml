@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="skripsi.kohonen.signaturerecognition.Tab1Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:text="SELAMAT DATANG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textSize="10pt"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:text="Versi 1.0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/textView8" />
+
+    <TextView
+        android:text="DI"
+        android:textSize="10pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/smtik"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/imageView2" />
+
+    <TextView
+        android:text="SIGNATURE RECOGNITION"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:fontFamily="serif"
+        android:textSize="10pt"
+        android:textStyle="normal|bold|italic"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

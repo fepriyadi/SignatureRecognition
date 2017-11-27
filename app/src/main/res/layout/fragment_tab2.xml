@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="skripsi.kohonen.signaturerecognition.Tab2Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:background="@drawable/border"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp">
+
+        <skripsi.kohonen.signaturerecognition.FiturDrawing
+            android:id="@+id/drawing_simpan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="#FFFFFFFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/TVnama"
+            android:layout_width="118dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:text="NAMA PEMILIK"
+            android:textSize="7pt"
+            android:fontFamily="sans-serif"/>
+        <EditText
+            android:id="@+id/Editnama"
+            android:layout_width="274dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:inputType="textCapSentences"
+            android:textSize="8pt"
+            android:fontFamily="sans-serif"
+            android:background="@drawable/border"
+            android:hint="Masukkan Nama"
+            android:singleLine="true"
+            android:layout_weight="0.78" />
+
+        <Button
+            android:id="@+id/btnsimpan"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="SIMPAN"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@android:color/white" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/bt_new"
+            android:background="@android:color/white"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btnclear"
+            android:layout_weight="0.13" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

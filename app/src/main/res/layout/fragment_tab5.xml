@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="skripsi.kohonen.signaturerecognition.Tab5Fragment">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="33dp"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="15dp"
+                android:gravity="left|right"
+                android:text="Tab Simpan : Berfungsi untuk melakukan proses penyimpanan data tanda tangan ke dalam database sehingga data yang tersimpan menjadi data tangan yang dikenali oleh sistem " />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView25"
+                android:layout_alignStart="@+id/textView25"
+                android:layout_marginLeft="33dp"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.04"
+                android:text="Tab Pengujian : Berfungsi untuk melakukan proses pengujian terhadap sebuah tanda tangan dan akan dibandingkan dengan data yang tersimpan dan dikenali sehingga menghasilkan informasi asli atau palsu tanda tangan yang diuji tersebut " />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView29"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textView29"
+                android:layout_marginLeft="33dp"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="15dp"
+                android:text="Tab Lihat Data : Berfungsi untuk melakukan proses melihat semua data yang telah dikenali oleh sistem atau telah tersimpan di database. Terdapat menu lihat data, hapus, dan hapus semua data di dalam Tab ini. Menu lihat data berfungsi untuk melihat nilai biner dan pola tanda tangan. Menu hapus berfungsi untuk menghapus data tanda tangan. Menu hapus semua berfungsi untuk menghapus semua tanda tangan" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView31"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textView31"
+                android:layout_marginLeft="33dp"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="15dp"
+                android:text="Tab Bantuan : Berfungsi untuk memberikan informasi fungsi dari setiap elemen yang ada di dalam sistem" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignLeft="@+id/textView32"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textView32"
+                android:layout_marginLeft="33dp"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="15dp"
+                android:text="Tab tentang : Berfungsi untuk menampikan informasi mahasiswa pembuat perangkat lunak dan informasi mengenai perangkat lunak" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
